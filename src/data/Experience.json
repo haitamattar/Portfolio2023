@@ -1,0 +1,31 @@
+{
+  "experience": [
+    {
+      "Title": "H5mag",
+      "Type": "Job",
+      "Role": "Fullstack Developer",
+      "Description": " - Creating",
+      "Period": [1293032, 121234554],
+      "Url":"",
+      "Technologies": ["SVN", "JS", "Vanilla PHP", "CSS", "Bootstrap"]
+    },
+    {
+      "Title": "Squeezely",
+      "Type": "Job",
+      "Role": "Back-end Engineer",
+      "Description": "Responsible for maintaining a large codebase and adding customer-requested features.",
+      "Period": ["09-2019", "02-2020"],
+      "Url":"",
+      "Technologies": ["Symfony", "SQL", "JS", "Shopify", "Magento", "Pagespeed"]
+    },
+    {
+      "Title": "Innovative Design Delft",
+      "Type": "Job",
+      "Role": "Fullstack Developer",
+      "Description": "Responsible for maintaining a large codebase and adding customer-requested features.",
+      "Period": ["09-2015", "11-2017"],
+      "Url":"",
+      "Technologies": ["SVN", "JS", "Vanilla PHP", "CSS", "Bootstrap"]
+    }
+  ]
+}
