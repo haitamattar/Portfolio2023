@@ -1,15 +1,25 @@
-<script setup>
-
+<script>
+export default {
+  props: {
+      title: { type: String, default: 'Full-Stack Engineer'},
+      company: { type: String, default: 'H5mag'},
+  },
+  data() {
+    return {
+      expand: false
+    }
+  }
+}
 </script>
 
 <template>
   <div class="flex gap-32">
     <div class="text-left md:shrink-0">
-      <p class="text-midnightOrange block mt-7 mb-7 text-left mt-10">2020 - 2023</p>
+      <p class="text-midnightGray block mt-7 mb-7 text-left mt-10 text-l">SEP 2020 - APR 2023</p>
     </div>
-    <div class="relative p-8 rounded-lg overflow-hidden max-h-80">
+    <div class="transition-all relative p-8 rounded-lg overflow-hidden h" :class=" { 'max-h-80': !expand, 'max-h-[800px]': expand } ">
       <h1 class="text-4xl antialiased font-sans text-midnightWhite font-medium max-w-3xl">
-        Full-Stack Engineer @ <p class="inline text-midnightOrange">H5mag</p>
+        {{ title }} @ <p class="inline text-midnightOrange">{{ company }}</p>
       </h1>
       <p class="mb-8"></p>
   <!--    <p class="text-midnightGray">-->
@@ -44,10 +54,8 @@
           <li>Technologies used: PHP, JavaScript, MariaDB, SQLite, Zapier CLI, Node.js, GIT, GitLab, Linux</li>
 
         </ul>
-      <div class="-ml-8 h-24 w-full bg-gradient-to-t from-midnightBlue from-40% absolute bottom-0 z-10">
-      </div>
-      <button class="text-midnightOrange bottom-0 absolute z-20">Read More</button>
-      <!--    </p>-->
+        <div v-if="!expand" class="-ml-8 h-24 w-full bg-gradient-to-t from-midnightBlue from-40% absolute bottom-0 z-10"></div>
+        <button  v-if="!expand" @click="expand=!expand" class="text-midnightOrange bottom-0 absolute z-20">Read More</button>
     </div>
   </div>
 </template>

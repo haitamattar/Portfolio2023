@@ -1,11 +1,3 @@
-<script setup>
-defineProps({
-  msg: {
-    type: String,
-    required: true
-  }
-})
-</script>
 
 <template>
   <div class="grid mt-72 gap-8 lg:grid-cols-2 md:grid-cols-1 mb-52">
@@ -23,7 +15,7 @@ defineProps({
       <div
           class="bg-amber-50 w-44 h-44 lg:w-52 lg:h-52 xl:w-64 xl:h-64  2xl:h-72 2xl:w-72 bg-[url('assets/HaitamPc.JPG')] bg-cover rounded-2xl -rotate-12 relative inline-block z-50 overflow-hidden">
       </div>
-      <div class="bg-amber-50 w-44 h-44 lg:w-52 lg:h-52 xl:w-64 xl:h-64  2xl:h-72 2xl:w-72 bg-[url('assets/IndonesianDiving.mp4')] bg-cover bg-center rounded-2xl rotate-3 -ml-12 relative inline-block z-20 overflow-hidden">
+      <div class="bg-amber-50 w-44 h-44 lg:w-52 lg:h-52 xl:w-64 xl:h-64  2xl:h-72 2xl:w-72 bg-cover bg-center rounded-2xl rotate-3 -ml-12 relative inline-block z-20 overflow-hidden">
         <video autoplay loop muted playsinline class="object-cover w-full h-full rounded-2xl rotate-3 transform scale-[1.9]">
           <source src="../assets/IndonesiaDiving.mp4" type="video/mp4">
         </video>
