@@ -3,12 +3,8 @@ export default {
   props: {
       title: { type: String, default: 'Full-Stack Engineer'},
       company: { type: String, default: 'H5mag'},
+      expand: {type: Boolean, default: false}
   },
-  data() {
-    return {
-      expand: false
-    }
-  }
 }
 </script>
 
@@ -19,7 +15,7 @@ export default {
     </div>
     <div class="transition-all relative p-8 rounded-lg overflow-hidden h" :class=" { 'max-h-80': !expand, 'max-h-[800px]': expand } ">
       <h1 class="text-4xl antialiased font-sans text-midnightWhite font-medium max-w-3xl">
-        {{ title }} @ <p class="inline text-midnightOrange">{{ company }}</p>
+        {{ title }} @ <a href="https://h5mag.com" target="_blank" class="inline text-midnightOrange">{{ company }}</a>
       </h1>
       <p class="mb-8"></p>
   <!--    <p class="text-midnightGray">-->

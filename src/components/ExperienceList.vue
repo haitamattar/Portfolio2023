@@ -9,7 +9,7 @@ import Experience from "./Experience.vue";
       Experience
     </h1>
     <div>
-        <Experience/>
+        <Experience expand="true" />
         <Experience title="Back-End Engineer" company="Squeezely"/>
     </div>
 
