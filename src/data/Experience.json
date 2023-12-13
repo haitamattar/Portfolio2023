@@ -1,10 +1,9 @@
-{
-  "experience": [
+ [
     {
-      "title": "H5mag",
+      "company": "H5mag",
       "type": "Job",
       "role": "Full-Stack Developer",
-      "short-description": "Developed a feedback module that empowers users to create custom forms with dynamic questions.",
+      "shortDescription": "Developed a feedback module that empowers users to create custom forms with dynamic questions.",
       "description": [
         "Built the feature from scratch using PHP, JS, SQLite, and MariaDB, with each form having its own SQLite database housing reader-submitted data.",
         "Created a H5mag Zapier app, allowing users to implement custom actions upon question submissions; widely adopted by multiple users.",
@@ -15,30 +14,32 @@
         "Operated in a CI/CD environment for efficient and reliable deployment processes.",
         "Provided direct customer support, addressing queries and issues promptly."
       ],
-      "period": [1293032, 121234554],
-      "url":"",
+      "period": [1598922000, 1680310800],
+      "url":"https://h5mag.com",
       "technologies": ["PHP", "JS", "MariaDB", "SQLite", "GIT", "GitLab", "Linux", "Zapier CLI", "Node.js"]
     },
     {
-      "title": "Squeezely",
-      "Type": "Job",
-      "Role": "Back-end Engineer",
-      "short-description": "Developed a Magento 2 and Shopify plugin which makes the integration process with Squeezely easier.",
+      "company": "Squeezely",
+      "type": "Job",
+      "role": "Intern Back-end Engineer",
+      "shortDescription": "Developed a Magento 2 and Shopify plugin which makes the integration process with Squeezely easier.",
       "description": [
         "Created a H5mag Zapier app, allowing users to implement custom actions upon question submissions; widely adopted by multiple users."
       ],
-      "period": ["09-2019", "02-2020"],
-      "url":"",
+      "period": [1567299600, 1580518800],
+      "url":"https://www.squeezely.tech/en",
       "technologies": ["Symfony", "SQL", "JS", "Shopify", "Magento", "Pagespeed"]
     },
     {
-      "title": "Innovative Design Delft",
-      "Type": "Job",
-      "Role": "Fullstack Developer",
-      "description": "Responsible for maintaining a large codebase and adding customer-requested features.",
-      "period": ["09-2015", "11-2017"],
-      "url":"",
+      "company": "Innovative Design Delft",
+      "type": "Job",
+      "role": "Fullstack Developer",
+      "shortDescription": "Responsible for maintaining a large codebase and adding customer-requested features.",
+      "description": [
+        "Created a H5mag Zapier app, allowing users to implement custom actions upon question submissions; widely adopted by multiple users."
+      ],
+      "period": [1441069200, 1509498000 ],
+      "url":"https://iidesk.com/",
       "technologies": ["SVN", "JS", "Vanilla PHP", "CSS", "Bootstrap"]
     }
   ]
-}
