@@ -1,31 +1,44 @@
 {
   "experience": [
     {
-      "Title": "H5mag",
-      "Type": "Job",
-      "Role": "Fullstack Developer",
-      "Description": " - Creating",
-      "Period": [1293032, 121234554],
-      "Url":"",
-      "Technologies": ["SVN", "JS", "Vanilla PHP", "CSS", "Bootstrap"]
+      "title": "H5mag",
+      "type": "Job",
+      "role": "Full-Stack Developer",
+      "short-description": "Developed a feedback module that empowers users to create custom forms with dynamic questions.",
+      "description": [
+        "Built the feature from scratch using PHP, JS, SQLite, and MariaDB, with each form having its own SQLite database housing reader-submitted data.",
+        "Created a H5mag Zapier app, allowing users to implement custom actions upon question submissions; widely adopted by multiple users.",
+        "Maintained and documented API endpoints for system stability and seamless integration.",
+        "Wrote comprehensive technical documentation for internal use and user onboarding, simplifying the adoption process.",
+        "Iteratively improved the module based on real user feedback, ensuring responsiveness to user needs.",
+        "Collaborated with designers and senior engineers to enhance user experience and adhere to established code standards.",
+        "Operated in a CI/CD environment for efficient and reliable deployment processes.",
+        "Provided direct customer support, addressing queries and issues promptly."
+      ],
+      "period": [1293032, 121234554],
+      "url":"",
+      "technologies": ["PHP", "JS", "MariaDB", "SQLite", "GIT", "GitLab", "Linux", "Zapier CLI", "Node.js"]
     },
     {
-      "Title": "Squeezely",
+      "title": "Squeezely",
       "Type": "Job",
       "Role": "Back-end Engineer",
-      "Description": "Responsible for maintaining a large codebase and adding customer-requested features.",
-      "Period": ["09-2019", "02-2020"],
-      "Url":"",
-      "Technologies": ["Symfony", "SQL", "JS", "Shopify", "Magento", "Pagespeed"]
+      "short-description": "Developed a Magento 2 and Shopify plugin which makes the integration process with Squeezely easier.",
+      "description": [
+        "Created a H5mag Zapier app, allowing users to implement custom actions upon question submissions; widely adopted by multiple users."
+      ],
+      "period": ["09-2019", "02-2020"],
+      "url":"",
+      "technologies": ["Symfony", "SQL", "JS", "Shopify", "Magento", "Pagespeed"]
     },
     {
-      "Title": "Innovative Design Delft",
+      "title": "Innovative Design Delft",
       "Type": "Job",
       "Role": "Fullstack Developer",
-      "Description": "Responsible for maintaining a large codebase and adding customer-requested features.",
-      "Period": ["09-2015", "11-2017"],
-      "Url":"",
-      "Technologies": ["SVN", "JS", "Vanilla PHP", "CSS", "Bootstrap"]
+      "description": "Responsible for maintaining a large codebase and adding customer-requested features.",
+      "period": ["09-2015", "11-2017"],
+      "url":"",
+      "technologies": ["SVN", "JS", "Vanilla PHP", "CSS", "Bootstrap"]
     }
   ]
 }

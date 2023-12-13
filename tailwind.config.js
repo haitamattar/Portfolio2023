@@ -7,10 +7,12 @@ module.exports = {
     theme: {
         extend: {
             colors: {
-                'midnightBlue': '#0C1021',
-                'midnightWhite': '#E8F0FF',
-                'midnightGray': '#949BA8',
-                'midnightOrange': '#FB800A',
+                'midnightBlue':        '#0C1021',
+                'midnightWhite':       '#E8F0FF',
+                'midnightGray':        '#949BA8',
+                'midnightGrayDark':    '#5d6472',
+                'midnightOrange':      '#FB800A',
+                'midnightOrangeBlack': '#3e2a17',
             },
             screens: {
                 'sm': '640px',
