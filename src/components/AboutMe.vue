@@ -15,11 +15,13 @@
       <div
           class="bg-amber-50 w-44 h-44 lg:w-52 lg:h-52 xl:w-64 xl:h-64  2xl:h-72 2xl:w-72 bg-[url('assets/HaitamPc.JPG')] bg-cover rounded-2xl -rotate-12 relative inline-block z-50 overflow-hidden">
       </div>
-      <div class="bg-amber-50 w-44 h-44 lg:w-52 lg:h-52 xl:w-64 xl:h-64  2xl:h-72 2xl:w-72 bg-cover bg-center rounded-2xl rotate-3 -ml-12 relative inline-block z-20 overflow-hidden">
+
+      <div class="bg-amber-50 w-44 h-44 lg:w-52 lg:h-52 xl:w-64 xl:h-64  2xl:h-72 2xl:w-72 bg-cover bg-center rounded-2xl rotate-3 -ml-12 relative inline-block z-20 overflow-hidden mt-10">
         <video autoplay loop muted playsinline class="object-cover w-full h-full rounded-2xl rotate-3 transform scale-[1.9]">
           <source src="../assets/IndonesiaDiving.mp4" type="video/mp4">
         </video>
       </div>
+
       <div
           class="bg-amber-50 w-44 h-44 lg:w-52 lg:h-52 xl:w-64 xl:h-64  2xl:h-72 2xl:w-72 bg-[url('assets/Vietnam.JPG')] bg-cover bg-center rounded-2xl rotate-12 -ml-28 relative inline-block z-20">
       </div>

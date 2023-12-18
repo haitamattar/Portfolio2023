@@ -1,7 +1,7 @@
 <script setup>
-import TheWelcome from '../components/ExperienceList.vue'
 import AboutMe from '../components/AboutMe.vue'
-import Experience from "@/components/ExperienceList.vue";
+import Experience from "../components/ExperienceList.vue";
+import Projects from "../components/ProjectList.vue";
 </script>
 
 <template>
@@ -9,5 +9,6 @@ import Experience from "@/components/ExperienceList.vue";
 <!--    <TheWelcome />-->
     <AboutMe />
     <Experience />
+    <Projects />
   </main>
 </template>

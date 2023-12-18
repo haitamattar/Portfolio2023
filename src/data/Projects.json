@@ -1,49 +1,99 @@
-{
-  "projects": [
-    {
-      "Title": "DTAP Pipeline And A Social Media Site For Developers",
-      "Description": "For a school project, I built a DTAP environment and developed an app using Laravel and Vue. In my role, I focused on creating the DTAP environment, which involved configuring Docker, integrating it with GitLab, configuring Laravel Envoy, and contributing to both front-end development and the creation of web components. ",
-      "RepoURL": "",
-      "Preview":"",
-      "Technologies": ["PHP", "Python", "GIT", "RESTful", "Docker", "JS", "Laravel", "Vue", "DTAP", "SQL"],
-      "ProjectType": "School",
-      "Images": ["",""]
-    },
-    {
-      "Title": "Smart Ventilation System",
-      "Description": "Freek van Os faced challenges checking ventilation systems regularly, often leading to unnecessary maintenance. In a team of two, we addressed this using sensors and a connectivity protocol, avoiding WiFi due to privacy concerns. I focused on connecting Lora and TTN (The Things Network), sending small data values. I also created a simple React Native mobile app for customers to monitor Co2, humidity, and temperature values, along with receiving notifications for maintenance requests initiated by Freek van Os.",
-      "RepoURL": "NDA",
-      "Preview":"",
-      "Technologies": ["PHP", "Python", "GIT", "SQL", "C++", "React Native", "Laravel"],
-      "ProjectType": "School",
-      "Images": ["",""]
-    },
-    {
-      "Title": "Nutrition diet web application",
-      "Description": "LifeStyle Coaching Nederland required a diet application for their dietitians. Previously, diet overviews were manually created on paper, causing delays. The application, built with Java (backend), Angular (front-end), and MySQL, streamlines this process. Using the RIVM (National Institute for Public Health and the Environment) data set for nutritional information, dietitians can now easily generate dietary intake for clients. I was mainly responsible for designing the database structure, developing DAOs (Data Access Objects), and creating the model and controllers in Java.",
-      "RepoURL": "NDA",
-      "Preview":"",
-      "Technologies": ["JS", "Angular", "Java", "SQL", "Dropwizard"],
-      "ProjectType": "School",
-      "Images": ["",""]
-    },
-    {
-      "Title": "Rate flowers Web Application",
-      "Description": "A Tinder-like application where people can rate flowers. The business model about this application is sadly under an NDA (non-disclosure agreement). The web application was built using Java with Spring, Angular and MongoDB.",
-      "RepoURL": "NDA",
-      "Preview": "",
-      "Technologies": ["Java", "Angular", "JS", "MongoDB", "Spring"],
-      "ProjectType": "School",
-      "Images": ["",""]
-    },
-    {
-      "Title": "Restful Webshop",
-      "Description": "For a school webshop project, I built a simple online store. The front-end uses Angular, while the back-end is developed with Java and Dropwizard. The webshop allows users to add items to their cart, but the checkout feature is accessible only to registered users, with purchase details saved in the order history.",
-      "RepoURL": "https://github.com/haitamattar/IPRWC",
-      "Preview":"http://webshop.haitam.io/",
-      "Technologies": ["JS", "Angular", "Java", "SQL", "Dropwizard"],
-      "ProjectType": "School",
-      "Images": ["",""]
-    }
-  ]
-}
+[
+  {
+    "title": "DTAP Pipeline And A Social Media Site For Developers",
+    "description": "Creating and maintaining a DTAP pipeline while creating a social media website for programmers. We used different technologies like Gitlab and Docker.",
+    "repoURL": "",
+    "preview": "",
+    "technologies": [
+      "PHP",
+      "Python",
+      "GIT",
+      "RESTful",
+      "Docker",
+      "JS",
+      "Laravel",
+      "Vue",
+      "DTAP",
+      "SQL"
+    ],
+    "projectType": "School",
+    "images": [
+      "",
+      ""
+    ]
+  },
+  {
+    "title": "Smart Ventilation System",
+    "description": "Freek van Os faced challenges checking ventilation systems regularly, often leading to unnecessary maintenance. In a team of two, we addressed this using sensors and a connectivity protocol, avoiding WiFi due to privacy concerns. I focused on connecting Lora and TTN (The Things Network), sending small data values. I also created a simple React Native mobile app for customers to monitor Co2, humidity, and temperature values, along with receiving notifications for maintenance requests initiated by Freek van Os.",
+    "repoURL": "NDA",
+    "preview": "",
+    "technologies": [
+      "PHP",
+      "Python",
+      "GIT",
+      "SQL",
+      "C++",
+      "React Native",
+      "Laravel"
+    ],
+    "projectType": "School",
+    "images": [
+      "",
+      ""
+    ]
+  },
+  {
+    "title": "Nutrition diet web application",
+    "description": "LifeStyle Coaching Nederland required a diet application for their dietitians. Previously, diet overviews were manually created on paper, causing delays. The application, built with Java (backend), Angular (front-end), and MySQL, streamlines this process. Using the RIVM (National Institute for Public Health and the Environment) data set for nutritional information, dietitians can now easily generate dietary intake for clients. I was mainly responsible for designing the database structure, developing DAOs (Data Access Objects), and creating the model and controllers in Java.",
+    "repoURL": "NDA",
+    "preview": "",
+    "technologies": [
+      "JS",
+      "Angular",
+      "Java",
+      "SQL",
+      "Dropwizard"
+    ],
+    "projectType": "School",
+    "images": [
+      "",
+      ""
+    ]
+  },
+  {
+    "title": "Rate flowers Web Application",
+    "description": "A Tinder-like application where people can rate flowers. The business model about this application is sadly under an NDA (non-disclosure agreement). The web application was built using Java with Spring, Angular and MongoDB.",
+    "repoURL": "NDA",
+    "preview": "",
+    "technologies": [
+      "Java",
+      "Angular",
+      "JS",
+      "MongoDB",
+      "Spring"
+    ],
+    "projectType": "School",
+    "images": [
+      "",
+      ""
+    ]
+  },
+  {
+    "title": "Restful Webshop",
+    "description": "For a school webshop project, I built a simple online store. The front-end uses Angular, while the back-end is developed with Java and Dropwizard. The webshop allows users to add items to their cart, but the checkout feature is accessible only to registered users, with purchase details saved in the order history.",
+    "repoURL": "https://github.com/haitamattar/IPRWC",
+    "preview": "http://webshop.haitam.io/",
+    "technologies": [
+      "JS",
+      "Angular",
+      "Java",
+      "SQL",
+      "Dropwizard"
+    ],
+    "projectType": "School",
+    "images": [
+      "",
+      ""
+    ]
+  }
+]

@@ -26,14 +26,16 @@ export default {
 </script>
 
 <template>
-  <div class="md:flex md:gap-32 mb-20 md:mb-5">
+  <div class="md:flex md:gap-24 mb-20 md:mb-5">
     <div class="text-left md:shrink-0 hidden md:inline-block">
-      <p class="text-midnightGray block mb-7 text-left mt-10 text-l font-medium">{{ formatPeriodDateToMonthYear(period) }}</p>
+<!--      <div class="uppercase tracking-wide text-sm text-midnightOrange font-semibold">School</div>-->
+
+      <p class="text-midnightGray block mb-7 text-left mt-10 text-sm tracking-wide uppercase font-medium">{{ formatPeriodDateToMonthYear(period) }}</p>
     </div>
     <div class="transition-all relative md:p-8 rounded-lg overflow-hidden h" :class=" { 'max-h-52': !expand, 'max-h-[1800px]': expand } ">
-      <h1 class="text-4xl antialiased font-sans text-midnightWhite font-medium max-w-3xl md:mb-5">
+      <p class="text-3xl antialiased font-sans text-midnightWhite font-medium max-w-3xl md:mb-5">
         {{ role }} @ <a :href="url" target="_blank" class="inline text-midnightOrange">{{ company }}</a>
-      </h1>
+      </p>
       <p class="mb-5 text-midnightGrayDark text-sm mt-2 md:hidden">{{ formatPeriodDateToMonthYear(period) }}</p>
       <p class="text-midnightGray">{{ shortDescription }}</p>
         <ul v-if="description" class="list-disc text-midnightGray max-w-3xl list-inside font-light">

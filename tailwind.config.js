@@ -11,7 +11,7 @@ module.exports = {
                 'midnightWhite':       '#E8F0FF',
                 'midnightGray':        '#949BA8',
                 'midnightGrayDark':    '#5d6472',
-                'midnightOrange':      '#FB800A',
+                'midnightOrange':      '#e27309',
                 'midnightOrangeBlack': '#3e2a17',
             },
             screens: {
