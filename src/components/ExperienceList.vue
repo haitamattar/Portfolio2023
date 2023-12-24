@@ -15,8 +15,8 @@ export default {
 </script>
 
 <template>
-  <div class="mb-28">
-    <h3 class="text-4xl antialiased font-sans text-midnightWhite font-medium max-w-3xl mb-12">
+  <div class="mb-36 menu-item" id="experience" >
+    <h3 class="text-4xl antialiased font-sans text-midnightWhite font-medium max-w-3xl mb-12 mt-20">
       Experience
     </h3>
     <ExperienceCard v-for="(exp, index) in experiences"

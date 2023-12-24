@@ -1,8 +1,9 @@
 
 <template>
-  <div class="grid mt-72 gap-8 lg:grid-cols-2 md:grid-cols-1 mb-52">
+  <div class="top-0 absolute"></div>
+  <div class="grid mt-72 gap-8 lg:grid-cols-2 md:grid-cols-1 mb-52 menu-item"  id="about">
     <div>
-      <h1 class="text-6xl antialiased font-sans text-midnightWhite font-medium max-w-3xl">
+      <h1 class="text-6xl antialiased font-sans text-midnightWhite font-medium max-w-3xl " >
         Hey I'm Haitam
       </h1>
       <h2 class="text-1xl antialiased font-sans text-midnightGray max-w-3xl mt-3 font-semibold max-w-xl">
