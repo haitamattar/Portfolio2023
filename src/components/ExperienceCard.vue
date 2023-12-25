@@ -36,7 +36,7 @@ export default {
       <p class="text-3xl antialiased font-sans text-midnightWhite font-medium max-w-3xl md:mb-5">
         {{ role }} @ <a :href="url" target="_blank" class="inline text-midnightOrange">{{ company }}</a>
       </p>
-      <p class="mb-5 text-midnightGrayDark text-sm mt-2 md:hidden">{{ formatPeriodDateToMonthYear(period) }}</p>
+      <p class="mb-5 text-midnightGrayDark text-sm mt-2 md:hidden uppercase">{{ formatPeriodDateToMonthYear(period) }}</p>
       <p class="text-midnightGray">{{ shortDescription }}</p>
         <ul v-if="description" class="list-disc text-midnightGray max-w-3xl list-inside font-light">
           <li v-for="subDesc in description"> {{ subDesc }}</li>

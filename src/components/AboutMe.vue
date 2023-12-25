@@ -1,18 +1,18 @@
 
 <template>
-  <div class="top-0 absolute"></div>
-  <div class="grid mt-72 gap-8 lg:grid-cols-2 md:grid-cols-1 mb-52 menu-item"  id="about">
+  <div class="top-0 absolute menu-item" id="about"></div>
+  <div class="grid mt-72 gap-8 lg:grid-cols-2 md:grid-cols-1 mb-52" >
     <div>
-      <h1 class="text-6xl antialiased font-sans text-midnightWhite font-medium max-w-3xl " >
+      <h1 class="text-6xl antialiased font-sans text-midnightWhite font-medium max-w-3xl">
         Hey I'm Haitam
       </h1>
-      <h2 class="text-1xl antialiased font-sans text-midnightGray max-w-3xl mt-3 font-semibold max-w-xl">
+      <h2 class="text-1xl antialiased font-sdwans text-midnightGray max-w-3xl mt-3 font-semibold max-w-xl">
         a full-stack developer who enjoys building applications with a mix of creativity and code.
         In my free time, I like working on games and playing around with 3D modeling in Blender.
         Apart from coding, I also love to travel and hit the gym.
       </h2>
     </div>
-    <div class="lg:-mt-28">
+    <div class="lg:-mt-28 bg-midnightOrange">
       <div
           class="bg-amber-50 w-44 h-44 lg:w-52 lg:h-52 xl:w-64 xl:h-64  2xl:h-72 2xl:w-72 bg-[url('assets/HaitamPc.JPG')] bg-cover rounded-2xl -rotate-12 relative inline-block z-50 overflow-hidden">
       </div>

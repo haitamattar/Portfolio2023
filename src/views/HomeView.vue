@@ -30,7 +30,6 @@ export default {
       }
     }));
 
-    // document.querySelectorAll('.menu-item').forEach((section) => {
     document.querySelectorAll('.menu-item').forEach((section) => {
           interSectObserver.observe(section);
         }, {

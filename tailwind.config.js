@@ -29,6 +29,17 @@ module.exports = {
 
                 '2xl': '1736px',
                 // => @media (min-width: 1536px) { ... }
+            },
+            keyframes: {
+                gelatine: {
+                    '0%': { transform: 'scale(1, 1)' },
+                    '25%': { transform: 'scale(0.9, 1.4)' },
+                    '50%': { transform: 'scale(1.1, 0.85)' },
+                    '75%': { transform: 'scale(0.95, 1)' },
+                }
+            },
+            animation: {
+                gelatine: 'gelatine 0.5s',
             }
         },
     },

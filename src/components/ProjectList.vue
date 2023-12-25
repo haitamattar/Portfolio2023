@@ -23,6 +23,7 @@ export default {
                  :key="index"
                  :title="project.title"
                  :description="project.description"
+                 :technologies="project.technologies"
     />
   </div>
 </template>
