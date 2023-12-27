@@ -5,20 +5,20 @@
     "role": "Full-Stack Developer",
     "shortDescription": "Developed a feedback module that empowers users to create custom forms with dynamic questions.",
     "description": [
-      "Built the feature from scratch using PHP, JS, SQLite, and MariaDB, with each form having its own SQLite database housing reader-submitted data.",
-      "Created a H5mag Zapier app, allowing users to implement custom actions upon question submissions; widely adopted by multiple users.",
-      "Maintained and documented API endpoints for system stability and seamless integration.",
-      "Wrote comprehensive technical documentation for internal use and user onboarding, simplifying the adoption process.",
-      "Iteratively improved the module based on real user feedback, ensuring responsiveness to user needs.",
-      "Collaborated with designers and senior engineers to enhance user experience and adhere to established code standards.",
-      "Operated in a CI/CD environment for efficient and reliable deployment processes.",
+      "Developed a user-friendly feedback module enabling customization of forms with dynamic questions, which allows publications gather information about their readers.",
+      "Created and implemented the module from scratch using PHP, JavaScript, SQLite, and MariaDB, ensuring efficient data storage with individual SQLite databases for each form.",
+      "Built the H5mag Zapier app, widely adopted by multiple users, simplifying workflows by allowing custom actions upon question submissions.",
+      "Maintained and documented API endpoints to ensure system stability and smooth integration, contributing to an enhanced user experience.",
+      "Authored documentation for internal teams and user-friendly guides, reducing support and onboarding time.",
+      "Improved the feedback module based on real user feedback, demonstrating responsiveness to evolving user needs.",
+      "Collaborated with designers and engineers to enhance the user experience and maintain adherence to established code standards.",
       "Provided direct customer support, addressing queries and issues promptly."
     ],
     "period": [
       1598922000,
       1680310800
     ],
-    "url": "https://h5mag.com",
+    "url": "https://www.h5mag.com",
     "technologies": [
       "PHP",
       "JS",
@@ -35,9 +35,10 @@
     "company": "Squeezely",
     "type": "Job",
     "role": "Intern Back-end Engineer",
-    "shortDescription": "Developed a Magento 2 and Shopify plugin which makes the integration process with Squeezely easier.",
+    "shortDescription": "Developed a plugin to streamline the integration process with Squeezely, a Customer Data Platform.",
     "description": [
-      "Created a H5mag Zapier app, allowing users to implement custom actions upon question submissions; widely adopted by multiple users."
+      "Developed product integrations for Shopify, Magento 2, and Lightspeed, catering to companies managing extensive inventories exceeding 10000 products.",
+      "Collaborated with internal teams, including marketeers to improve the onboarding process for various platform integrations."
     ],
     "period": [
       1567299600,
@@ -57,9 +58,10 @@
     "company": "Innovative Design Delft",
     "type": "Job",
     "role": "Fullstack Developer",
-    "shortDescription": "Responsible for maintaining a large codebase and adding customer-requested features.",
+    "shortDescription": "Designed a data retrieval tool to extract articles from different news sites.",
     "description": [
-      "Created a H5mag Zapier app, allowing users to implement custom actions upon question submissions; widely adopted by multiple users."
+      "Sped up the extracting process by improving the internal database structure.",
+      "Designed and provided technical solutions that met the business requirements of stakeholders"
     ],
     "period": [
       1441069200,
