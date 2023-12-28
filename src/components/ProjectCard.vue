@@ -5,6 +5,7 @@ export default {
     "description": {type: String, default: "This contains a description"},
     "repoURL": {type: String, default: "https://github.com"},
     "preview": {type: [Array, String]},
+    "previewImage": {type: String, default: 'webshopPro.png'},
     "technologies": {type: Array, default: ["PHP", "JS", "MariaDB", "SQLite", "GIT"]},
     "projectType": {type: String, default: "school"},
     "images": ["",""]
@@ -16,7 +17,7 @@ export default {
   <a href="" class="w-full block mb-20">
     <div class="flex flex-wrap gap-14 md:flex-nowrap">
       <div class="flex-none w-full md:w-56 sm:mb-0">
-        <img class="w-full object-cover rounded-md" src="../assets/webshopPro.png" alt="">
+        <img class="w-full md:h-44 object-cover rounded-md" :src="`src/assets/images/${ previewImage }`" alt="">
       </div>
       <div class="max-w-3xl w-full">
         <a href="#" class="block mt-1 text-lg sm:text-lg leading-tight font-medium hover:underline text-midnightGray">{{ title }}</a>

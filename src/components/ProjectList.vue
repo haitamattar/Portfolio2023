@@ -24,6 +24,7 @@ export default {
                  :title="project.title"
                  :description="project.description"
                  :technologies="project.technologies"
+                 :previewImage="project.previewImage"
     />
   </div>
 </template>

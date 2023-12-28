@@ -15,17 +15,17 @@
     </div>
     <div class="lg:-mt-28 lg:flex w-full">
       <div
-          class="bg-amber-50 aspect-square w-1/2 sm:w-1/3  lg:w-52 lg:h-52 2xl:h-72 2xl:w-72 bg-[url('assets/HaitamPc.JPG')] bg-cover rounded-2xl -rotate-12 relative inline-block z-50 overflow-hidden">
+          class="bg-amber-50 aspect-square w-1/2 sm:w-1/3  lg:w-52 lg:h-52 2xl:h-72 2xl:w-72 bg-[url('assets/images/HaitamPc.JPG')] bg-cover rounded-2xl -rotate-12 relative inline-block z-50 overflow-hidden">
       </div>
 
       <div class="bg-amber-50 aspect-square w-1/2  -ml-8 sm:w-1/3 lg:-ml-12 lg:w-52 lg:h-52 xl:w-64 xl:h-64 2xl:h-72 2xl:w-72 bg-cover bg-center rounded-2xl rotate-3 relative inline-block z-20 overflow-hidden mt-10">
         <video autoplay loop muted playsinline class="object-cover w-full h-full rounded-2xl rotate-3 transform scale-[1.9]">
-          <source src="../assets/IndonesiaDiving.mp4" type="video/mp4">
+          <source src="../assets/videos/IndonesiaDiving.mp4" type="video/mp4">
         </video>
       </div>
 
       <div
-          class="bg-amber-50 hidden sm:inline-block w-1/3 sm:w-1/3 aspect-square -ml-20 lg:-ml-18 lg:w-52 lg:h-52 xl:w-64 xl:h-64  2xl:h-72 2xl:w-72 bg-[url('assets/Vietnam.JPG')] bg-cover bg-center rounded-2xl rotate-12 relative inline-block z-20">
+          class="bg-amber-50 hidden sm:inline-block w-1/3 sm:w-1/3 aspect-square -ml-20 lg:-ml-18 lg:w-52 lg:h-52 xl:w-64 xl:h-64  2xl:h-72 2xl:w-72 bg-[url('assets/images/Vietnam.JPG')] bg-cover bg-center rounded-2xl rotate-12 relative inline-block z-20">
       </div>
     </div>
   </div>
