@@ -6,12 +6,15 @@ module.exports = {
     ],
     theme: {
         extend: {
+            fontFamily: {
+            },
             colors: {
                 'midnightBlue':        '#0C1021',
                 'midnightWhite':       '#E8F0FF',
                 'midnightGray':        '#949BA8',
                 'midnightGrayDark':    '#5d6472',
                 'midnightOrange':      '#e27309',
+                'midnightDarkOrange':  '#c56408',
                 'midnightOrangeBlack': '#3e2a17',
             },
             screens: {

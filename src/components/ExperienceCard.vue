@@ -43,7 +43,8 @@ export default {
         <span v-for="tech in technologies" class="text-midnightOrange px-3 py-1 rounded-3xl bg-midnightOrangeBlack mr-3 text-xs font-medium mt-3 inline-block">{{ tech }}</span>
         </div>
         <div v-if="!expand" class="h-24 w-full bg-gradient-to-t from-midnightBlue from-40% absolute bottom-0 z-10"></div>
-        <button  v-if="!expand" @click="expand=!expand" class="text-midnightOrange bottom-0 absolute z-20">Read More</button>
+<!--        <button  v-if="!expand" @click="expand=!expand" class="text-midnightOrange -bottom-1 absolute z-20 text-sm font-semibold">Read More <i class="bi bi-arrow-down"></i></button>-->
+        <button  v-if="!expand" @click="expand=!expand" class="text-midnightOrange -bottom-1 absolute z-20 font-semibold group text-base hover:text-midnightDarkOrange">Read More <i class="text-lg translate-y-[1px] transition-all ease-in-out inline-block group-hover:translate-y-[4px] bi bi-arrow-down-short"></i></button>
     </div>
   </div>
 </template>

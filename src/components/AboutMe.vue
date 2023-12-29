@@ -5,10 +5,10 @@
   <div class="flex mt-28 sm:mt-72 mb-28 sm:mb-52 gap-14 2xl:gap-28 flex-wrap lg:flex-nowrap" >
     <div class="lg:w-2/5 w-full flex-none">
       <h1 class="sm:text-6xl text-4xl antialiased font-sans text-midnightWhite font-medium max-w-3xl">
-        Hey I'm Haitam
+        Hey, I'm Haitam
       </h1>
-      <h2 class="sm:text-1xl antialiased text-sm text-midnightGray max-w-xl xl:max-w-3xl mt-3 font-semibold">
-        a full-stack developer who enjoys building applications with a mix of creativity and code.
+      <h2 class="antialiased text-sm sm:text-base text-midnightGray max-w-xl xl:max-w-3xl mt-3 font-semibold">
+        A full-stack developer who enjoys building applications with a mix of creativity and code.
         In my free time, I like working on games and playing around with 3D modeling in Blender.
         Apart from coding, I also love to travel and hit the gym.
       </h2>
