@@ -3,6 +3,7 @@ import AboutMe from '../components/AboutMe.vue'
 import Experience from "../components/ExperienceList.vue";
 import Projects from "../components/ProjectList.vue";
 import Navigation from "@/components/Navigation.vue";
+import Footer from "@/components/Footer.vue";
 
 export default {
   data() {
@@ -37,6 +38,7 @@ export default {
         });
   },
   components: {
+    Footer,
     AboutMe,
     Experience,
     Projects,
@@ -48,9 +50,10 @@ export default {
 
 <template>
   <Navigation :active="currentSection"/>
-  <main class="mx-auto min-h-screen max-w-screen-2xl px-8 xl:px-24 md:pr-0 2xl:px-100 sm:px-24 container">
+  <main class="mx-auto min-h-screen max-w-screen-2xl px-8 xl:px-24 xl:pr-0 2xl:px-100 sm:px-24 container antialiased">
     <AboutMe/>
     <Experience/>
     <Projects/>
+    <Footer :hide-header-on-xl="true" />
   </main>
 </template>

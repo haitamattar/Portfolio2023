@@ -16,6 +16,7 @@ module.exports = {
                 'midnightOrange':      '#e27309',
                 'midnightDarkOrange':  '#c56408',
                 'midnightOrangeBlack': '#3e2a17',
+                'vueGreen':            '#41b883',
             },
             screens: {
                 'sm': '640px',

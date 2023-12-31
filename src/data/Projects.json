@@ -5,6 +5,7 @@
     "repoURL": "",
     "preview": "",
     "previewImage": "MainsocialDev.png",
+    "docPath": "DTAPPipelineSocial.md",
     "technologies": [
       "PHP",
       "Python",
@@ -29,6 +30,7 @@
     "repoURL": "NDA",
     "preview": "",
     "previewImage": "Airsense.png",
+    "docPath": "SmartVentilationSystem.md",
     "technologies": [
       "PHP",
       "Python",
@@ -46,10 +48,11 @@
     ]
   },
   {
-    "title": "Nutrition diet web application",
+    "title": "Diet Application for Dietitians",
     "description": "LifeStyle Coaching Nederland required a diet application to replace manual paper-based diet overviews. I took role in developing the Java (backend), Angular (front-end), and MySQL application, focusing on database design and creating Java DAOs, models, and controllers, enabling dietitians to generate dietary intake for clients using RIVM (National Institute for Public Health and the Environment) nutritional data.",
     "repoURL": "NDA",
     "preview": "",
+    "docPath": "NutritionDietApplication.md",
     "previewImage": "diet.png",
     "technologies": [
       "JS",

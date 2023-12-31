@@ -15,7 +15,7 @@ export default {
 </script>
 
 <template>
-  <div class="mb-80 menu-item" id="projects" >
+  <div class="menu-item" id="projects" >
     <h3 class="sticky md:relative backdrop-blur md:backdrop-blur-none z-50 top-0 text-3xl md:text-4xl antialiased font-sans text-midnightWhite font-medium max-w-3xl mb-6 mt-16 pb-4 pt-3">
       Projects
     </h3>
@@ -25,6 +25,8 @@ export default {
                  :description="project.description"
                  :technologies="project.technologies"
                  :previewImage="project.previewImage"
+                 :repo-u-r-l="project.repoURL"
+                 :doc-path="project.docPath"
     />
   </div>
 </template>
