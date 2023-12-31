@@ -32,7 +32,7 @@ export default {
       router.push({ name: 'home'})
     }
 
-    fetch(`/src/assets/markdown/${this.docPath}`)
+    fetch(`/markdown/${this.docPath}`)
         .then((response) => response.text())
         .then((text) => {
           this.markdownData = text;
