@@ -48,7 +48,7 @@ export default {
   <div class="min-h-screen max-w-screen-lg 2xl:max-w-screen-lg container mx-auto antialiased">
 
     <article
-        class="px-8 prose lg:prose-md min-w-full prose-img:inline-block dark:prose-invert dark:bg-midnightBlue xl:px-16 sm:px-24 bg-white py-16 mb-10"
+        class="px-8 prose lg:prose-md min-w-full prose-img:inline-block dark:prose-invert prose-a:text-midnightDarkOrange prose-a:font-bold dark:bg-midnightBlue xl:px-16 sm:px-24 bg-white py-16 mb-10"
         v-html="markdownToHTML">
     </article>
     <Footer class="px-8 min-w-full xl:px-16 sm:px-24" />

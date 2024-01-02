@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "@vueuse/core": "^10.7.0",
+    "@vueuse/motion": "^2.0.0",
     "bootstrap-icons": "^1.11.2",
     "marked": "^11.1.0",
     "vue": "^3.3.4",

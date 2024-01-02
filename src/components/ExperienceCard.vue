@@ -26,17 +26,17 @@ export default {
 </script>
 
 <template>
-  <div class="md:flex md:gap-24 mb-20 md:mb-5">
-    <div class="text-left md:shrink-0 hidden md:inline-block">
+  <div class="md:flex gap-14 xl:gap-24 mb-16 xl:mb-5">
+    <div class="text-left xl:shrink-0 hidden xl:inline-block">
       <p class="text-midnightGray block mb-7 text-left mt-10 text-sm tracking-wide uppercase font-medium">{{ formatPeriodDateToMonthYear(period) }}</p>
     </div>
-    <div class="transition-all relative md:p-8 rounded-lg max-w-3xl overflow-hidden h" :class=" { 'max-h-52': !expand, 'max-h-[1800px]': expand } ">
-      <p class="text-2xl xl:text-3xl antialiased text-midnightWhite font-medium max-w-2xl md:mb-5">
+    <div class="transition-all relative xl:p-8 rounded-lg max-w-3xl overflow-hidden h" :class=" { 'max-h-52': !expand, 'max-h-[1800px]': expand } ">
+      <p class="text-2xl xl:text-3xl antialiased text-slate-200 font-medium max-w-2xl md:mb-5">
         {{ role }} @ <a :href="url" target="_blank" class="inline text-midnightOrange hover:text-midnightDarkOrange transition-colors duration-600">{{ company }}</a>
       </p>
-      <p class="mb-5 text-midnightGrayDark text-sm mt-2 md:hidden uppercase">{{ formatPeriodDateToMonthYear(period) }}</p>
-      <p class="text-midnightGray text-sm w-full">{{ shortDescription }}</p>
-        <ul v-if="description" class="list-disc text-midnightGray w-full text-sm list-outside ml-3">
+      <p class="mb-5 text-slate-600 font-bold text-sm mt-2 xl:hidden uppercase">{{ formatPeriodDateToMonthYear(period) }}</p>
+      <p class="text-midnightGray text-sm w-full font-semibold pr-6">{{ shortDescription }}</p>
+        <ul v-if="description" class="list-disc text-slate-400 w-full font-medium leading-normal text-sm list-outside px-6 mt-2">
           <li v-for="subDesc in description" class="mb-1"> {{ subDesc }}</li>
         </ul>
         <div class="mt-5">
