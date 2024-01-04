@@ -28,8 +28,13 @@ export default {
       }
     });
 
-    if(this.docPath === undefined) {
-      router.push({ name: 'home'})
+    if(this.docPath === "") {
+      router.push({
+        name: 'notFound',
+        params: { pathMatch: this.$route.path.substring(1).split('/') },
+        query: this.$route.query,
+        hash: this.$route.hash,
+      })
     }
 
     fetch(`/markdown/${this.docPath}`)
