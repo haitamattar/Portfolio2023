@@ -1,6 +1,6 @@
 <script>
 import {marked} from "marked";
-import projectsData from "../data/Projects.json";
+import ProjectsData from "../data/Projects.json";
 import router from "@/router";
 import Footer from "@/components/Footer.vue";
 
@@ -21,7 +21,7 @@ export default {
   },
   beforeMount() {
     const formatURL = this.$route.params.name.replace(/-/g, ' ');
-    projectsData.forEach((project) => {
+    ProjectsData.forEach((project) => {
       if (project.title === formatURL) {
         this.docPath = project.docPath;
         return true;

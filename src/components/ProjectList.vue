@@ -1,11 +1,11 @@
 <script>
 import ProjectCard from "./ProjectCard.vue";
-import projectData from "../data/Projects.json";
+import ProjectData from "../data/Projects.json";
 
 export default {
   data() {
     return {
-      projects: projectData
+      projects: ProjectData
     };
   },
   components: {

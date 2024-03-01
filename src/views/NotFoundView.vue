@@ -4,6 +4,3 @@
     <router-link to="/" class="text-midnightOrange text-base hover:text-midnightDarkOrange font-semibold">Go Back To Homepage</router-link>
   </div>
 </template>
-
-<script setup>
-</script>

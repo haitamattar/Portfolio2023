@@ -1,11 +1,11 @@
 <script>
 import ExperienceCard from "./ExperienceCard.vue";
-import experienceData from "../data/Experience.json";
+import ExperienceData from "../data/Experience.json";
 
 export default {
   data() {
     return {
-      experiences: experienceData
+      experiences: ExperienceData
     };
   },
   components: {
