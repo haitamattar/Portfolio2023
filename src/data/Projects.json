@@ -88,7 +88,7 @@
   },
   {
     "title": "Restful Webshop",
-    "description": "For a school webshop project, I built a simple online store. The front-end uses Angular, while the back-end is developed with Java and Dropwizard. The webshop allows users to add items to their cart, but the checkout feature is accessible only to registered users, with purchase details saved in the order history.",
+    "description": "For a school project, I built a simple online store. The front-end uses Angular, while the back-end is developed with Java and Dropwizard. The webshop allows users to add items to their cart, but the checkout feature is accessible only to registered users, with purchase details saved in the order history.",
     "repoURL": "https://github.com/haitamattar/IPRWC",
     "preview": "http://webshop.haitam.io/",
     "previewImage": "webshopPro.png",

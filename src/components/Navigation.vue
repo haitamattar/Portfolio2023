@@ -1,7 +1,14 @@
 <script>
 export default {
   props: {
-    active: 'about'
+    active: 'about',
+  },
+  data() {
+    return {
+      linkedinURL: import.meta.env.VITE_linkedin_URL,
+      githubURL: import.meta.env.VITE_github_URL,
+      instagramURL: import.meta.env.VITE_instagram_URL
+    }
   },
   methods: {},
   watch: {
@@ -12,7 +19,7 @@ export default {
       this.$refs.activeDot.classList.add('animate-gelatine');
       this.$refs.activeDot.style.top = activePos + 'px';
     }
-  }
+  },
 }
 </script>
 
@@ -38,13 +45,13 @@ export default {
     </ul>
 
     <div class="flex gap-3 mb-4 text-xl text-midnightGray *:transition-all *:duration-600">
-      <a href="https://www.linkedin.com/in/haitam-el-attar/" rel="noreferrer noopener" class="hover:text-midnightOrange bi bi-linkedin"></a>
-      <a href="https://github.com/haitamattar" rel="noreferrer noopener" class="hover:text-midnightOrange bi bi-github"></a>
-      <a href="https://www.instagram.com/patcha.mamma/" rel="noreferrer noopener" class="hover:text-midnightOrange bi bi-instagram"></a>
+      <a :href="linkedinURL" rel="noreferrer noopener" class="hover:text-midnightOrange bi bi-linkedin"></a>
+      <a :href="githubURL" rel="noreferrer noopener" class="hover:text-midnightOrange bi bi-github"></a>
+      <a :href="instagramURL" rel="noreferrer noopener" class="hover:text-midnightOrange bi bi-instagram"></a>
     </div>
 
-    <p class="inline-block text-midnightGrayDark text-xs select-none">Made with <br> Vue & Tailwind
-    </p>
+    <a href="https://github.com/haitamattar/Portfolio2023"><p class="inline-block text-midnightGrayDark text-xs select-none hover:text-vueGreen transition-colors">Made with <br> Vue & Tailwind
+    </p></a>
 
   </nav>
 </template>

@@ -1,3 +1,14 @@
+<script>
+export default {
+  data() {
+    return {
+      linkedinURL: import.meta.env.VITE_linkedin_URL,
+      githubURL: import.meta.env.VITE_github_URL,
+      instagramURL: import.meta.env.VITE_instagram_URL
+    }
+  }
+}
+</script>
 
 <template>
   <div class="top-0 absolute menu-item" id="about"></div>
@@ -14,9 +25,9 @@
       </h2>
 
       <div class="xl:hidden mt-6 flex gap-5 text-2xl text-slate-400 *:transition-all *:duration-600">
-        <a href="https://www.linkedin.com/in/haitam-el-attar/" rel="noreferrer noopener" class="hover:text-midnightOrange bi bi-linkedin"></a>
-        <a href="https://github.com/haitamattar" rel="noreferrer noopener" class="hover:text-midnightOrange bi bi-github"></a>
-        <a href="https://www.instagram.com/patcha.mamma/" rel="noreferrer noopener" class="hover:text-midnightOrange bi bi-instagram"></a>
+        <a :href="linkedinURL" rel="noreferrer noopener" class="hover:text-midnightOrange bi bi-linkedin"></a>
+        <a :href="githubURL" rel="noreferrer noopener" class="hover:text-midnightOrange bi bi-github"></a>
+        <a :href="instagramURL" rel="noreferrer noopener" class="hover:text-midnightOrange bi bi-instagram"></a>
       </div>
     </div>
     <div class="xl:-mt-28 lg:flex w-full">

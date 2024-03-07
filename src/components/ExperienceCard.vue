@@ -10,17 +10,26 @@ export default {
     technologies: {type: Array, default: ["PHP", "JS", "MariaDB", "SQLite", "GIT"]},
     expand: {type: Boolean, default: false}
   },
+  data() {
+    return {
+      formattedPeriod: 'SEP 2020 - APR 2023',
+    }
+  },
   methods: {
     formatPeriodDateToMonthYear(period) {
       const formatDate = (date) => {
         if (date instanceof Date) {
           return date.toLocaleString('en-US', { month: 'short', year: 'numeric' });
         }
-        const timestampDate = new Date(date * 1000);
+        let timestampDate = new Date(Number.isInteger(date) ? (date * 1000) : date);
         return timestampDate.toLocaleString('en-US', { month: 'short', year: 'numeric' });
       };
-      return `${formatDate(period[0])} - ${formatDate(period[1])}`;
+
+      this.formattedPeriod = `${formatDate(period[0])} - ${formatDate(period[1])}`;
     },
+  },
+  created() {
+    this.formatPeriodDateToMonthYear(this.period);
   }
 }
 </script>
@@ -28,13 +37,13 @@ export default {
 <template>
   <div class="md:flex gap-14 xl:gap-24 mb-16 xl:mb-5">
     <div class="text-left xl:shrink-0 hidden xl:inline-block">
-      <p class="text-midnightGray block mb-7 text-left mt-10 text-sm tracking-wide uppercase font-medium">{{ formatPeriodDateToMonthYear(period) }}</p>
+      <p class="text-midnightGray block mb-7 text-left mt-10 text-sm tracking-wide uppercase font-medium">{{ formattedPeriod }}</p>
     </div>
     <div class="transition-all relative xl:p-8 rounded-lg max-w-3xl overflow-hidden h" :class=" { 'max-h-52': !expand, 'max-h-[1800px]': expand } ">
       <p class="text-2xl xl:text-3xl antialiased text-slate-200 font-medium max-w-2xl md:mb-5">
         {{ role }} @ <a :href="url" target="_blank" class="inline text-midnightOrange hover:text-midnightDarkOrange transition-colors duration-600">{{ company }}</a>
       </p>
-      <p class="mb-5 text-slate-600 font-bold text-sm mt-2 xl:hidden uppercase">{{ formatPeriodDateToMonthYear(period) }}</p>
+      <p class="mb-5 text-slate-600 font-bold text-sm mt-2 xl:hidden uppercase">{{ formattedPeriod }}</p>
       <p class="text-midnightGray text-sm w-full font-semibold pr-6">{{ shortDescription }}</p>
         <ul v-if="description" class="list-disc text-slate-400 w-full font-medium leading-normal text-sm list-outside px-6 mt-2">
           <li v-for="subDesc in description" class="mb-1"> {{ subDesc }}</li>
