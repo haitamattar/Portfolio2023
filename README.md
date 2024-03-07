@@ -1,12 +1,11 @@
 # Portfolio Haitam
-An interactive portfolio website designed to highlight my experience and projects, created with Vue.js, Tailwind, and Markdown.
+An interactive portfolio website designed to highlight my experience and projects, created with Vue.js, Tailwind, and Markdown.<br>
+This portfolio website can be hosted using [GitHub pages](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site).
 
-### Forking this project 
+### Forking this project 🍴
 If you decide to fork this project for your own use, I kindly request that you credit me. Thank you!
 
 ![haitam io_ (1)](https://github.com/haitamattar/Portfolio2023/assets/5589243/c50ec6ae-82df-409c-b67e-6ed3d41032d5)
-
-
 
 
 
